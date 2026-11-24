@@ -1,0 +1,28 @@
+# Replace the subnets, ranges, and gateways with the values for this run.
+networks:
+  om:
+    cidr: 10.70.0.0/24
+    gateway: 10.70.0.1
+    usable_start: 10.70.0.20
+    usable_end: 10.70.0.240
+    reserved: [10.70.0.99]
+  app-om:
+    cidr: 10.70.1.0/24
+    gateway: 10.70.1.1
+    usable_start: 10.70.1.20
+    usable_end: 10.70.1.240
+  external:
+    cidr: 10.70.2.0/24
+    gateway: 10.70.2.1
+    usable_start: 10.70.2.20
+    usable_end: 10.70.2.240
+  service:
+    cidr: 10.70.3.0/24
+    gateway: 10.70.3.1
+    usable_start: 10.70.3.20
+    usable_end: 10.70.3.240
+  service-external:
+    cidr: 10.70.4.0/24
+    gateway: 10.70.4.1
+    usable_start: 10.70.4.20
+    usable_end: 10.70.4.240

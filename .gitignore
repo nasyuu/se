@@ -1,0 +1,16 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+/.env
+/.uv-cache/
+/config/known_hosts
+/config/jump_host.yaml
+/config/networks.yaml
+*_filled.xlsx

@@ -1,0 +1,13 @@
+host: jump.example.invalid
+user: operator
+port: 22
+# Verify the host key with network operations before adding it to this file.
+known_hosts: known_hosts
+timeout_seconds: 8
+ping_wait_seconds: 1
+interfaces:
+  om: eth1
+  app-om: eth0
+  external: eth3
+  service: eth2
+  service-external: eth4
